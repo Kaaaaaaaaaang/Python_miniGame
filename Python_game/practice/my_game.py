@@ -12,9 +12,9 @@ pygame.display.set_caption("PyGame practice")
 
 clock = pygame.time.Clock()
 
-background = pygame.image.load("C:\\Python_game\\pygame_basic\\background.png")
+background = pygame.image.load("C:\\Python_game\\practice\\background.png")
 
-character = pygame.image.load("C:\\Python_game\\pygame_basic\\character.png")
+character = pygame.image.load("C:\\Python_game\\practice\\character.png")
 character_size = character.get_rect().size
 character_width = character_size[0]
 character_height = character_size[1]
@@ -25,13 +25,13 @@ to_x = 0
 
 character_speed = 0.6
 
-enemy = pygame.image.load("C:\\Python_game\\pygame_basic\\enemy.png")
+enemy = pygame.image.load("C:\\Python_game\\practice\\enemy.png")
 enemy_size = enemy.get_rect().size
 enemy_width = enemy_size[0]
 enemy_height = enemy_size[1]
 enemy_x_pos = random.randint(0, screen_width - enemy_width)
 enemy_y_pos = 0
-enemy_speed = 10
+enemy_speed = 15
 
 game_font = pygame.font.Font(None, 40)
 
